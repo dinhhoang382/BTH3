@@ -1,0 +1,11 @@
+ const handleSignout = () => {
+    auth()
+      .signOut()
+      .then(() => {
+        console.log("User sign out!");
+        navigation.navigate("LoginScreen");
+      })
+      .catch((e) => {
+        console.error("Signin error!", e);
+      });
+  };

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "424419857544",
+    "project_id": "house-project-1c89a",
+    "storage_bucket": "house-project-1c89a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:424419857544:android:c61161ce2ae09539913b3d",
+        "android_client_info": {
+          "package_name": "com.hoangexpo2.houseProject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "424419857544-fs2hj1olbq4n7oestj0uvup54orqkn01.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hoangexpo2.houseProject",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "424419857544-8emtilrsspabhgjphv5nr7cpa3scafh8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrjryNfk0uR8Zx9TT8I9qlNGptR0nn3kE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "424419857544-8emtilrsspabhgjphv5nr7cpa3scafh8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,48 @@
+ - signinAnonymous 😊
+ --> Code
+ /* const signinAnonymous = () => {
+    auth()
+      .signInAnonymously()
+      .then(() => {
+        console.log("User signed in anonymously");
+        navigation.navigate("HomeScreen");
+      })
+      .catch((error) => {
+        if (error.code === "auth/operation-not-allowed") {
+          console.log("Enable anonymous in your firebase console.");
+        }
+        console.error(error);
+      });
+  }; */
+--> UI
+<TouchableOpacity onPress={signinAnonymous}>
+        <View
+          style={{
+            width: 300,
+            height: 55,
+            alignItems: "center",
+            justifyContent: "center",
+            backgroundColor: "#adf",
+            borderRadius: 20,
+            marginVertical: 40,
+            flexDirection: "row",
+            borderWidth: 0,
+            borderColor: "grey",
+          }}
+        >
+          <Icon source={{ uri: icongg }} size={30} />
+          <Text
+            style={{
+              color: "black",
+              fontWeight: "bold",
+              alignSelf: "center",
+              fontSize: 16,
+              marginLeft: 40,
+            }}
+          >
+            Đăng nhập bằng Google
+          </Text>
+        </View>
+      </TouchableOpacity>
+      <StatusBar style="auto" />
+    </View>
